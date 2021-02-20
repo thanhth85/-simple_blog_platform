@@ -19,12 +19,14 @@ Install
 1. Softwares: Installed PHP, Mysql, Laravel
 2. Download source code and add .env file to blog directory. Config .env file follow as : 
     2.1 Connect with MySQL database
+  
         * DB_HOST=localhost
         * DB_DATABASE=your_database_name
         * DB_USERNAME=database_username
         * DB_PASSWORD=database_password
 
     2.2 Add admin (default):
+
         * INITIAL_USER_NAME=Admin
         * INITIAL_USER_EMAIL=admin@admin.com
         * INITIAL_USER_PASSWORD=Admin@123
